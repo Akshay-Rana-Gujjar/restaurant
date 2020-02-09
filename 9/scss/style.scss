@@ -456,6 +456,7 @@ header {
 	.owl-item {
 		transition: .3s all ease-in-out;
 		opacity: .2;
+		touch-action: auto!important;
 		&.active {
 			opacity: 1;
 		}
